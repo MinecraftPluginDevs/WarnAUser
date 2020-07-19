@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WarnAUser:jar">
+    <output-path>$PROJECT_DIR$/../../../Coding/Minecraft Plugins/Server/plugins</output-path>
+    <root id="archive" name="WarnAUser.jar">
+      <element id="module-output" name="WarnAUser" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../Coding/Minecraft Plugins/Server/spigot-1.15.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
