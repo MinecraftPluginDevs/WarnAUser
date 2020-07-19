@@ -1,0 +1,7 @@
+name: WarnAUser
+version: 1
+description: Warn a user using /warn
+main: com.jackthewebdev.WarnPlayers.Core
+commands:
+  warn:
+    description: warn a user

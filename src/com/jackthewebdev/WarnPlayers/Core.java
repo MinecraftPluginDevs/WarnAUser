@@ -23,11 +23,12 @@ public class Core extends JavaPlugin {
             StringBuilder builder = new StringBuilder();
             String message;
             for(int i = 1; i < args.length; i++){
-                builder.append(args[i]);
+                builder.append(" "+args[i]);
             }
             p.sendMessage(ChatColor.RED + "===="+ChatColor.YELLOW+"Warning"+ChatColor.RED+"====");
             p.sendMessage(ChatColor.YELLOW + builder.toString());
             p.sendMessage(ChatColor.RED+"====");
+            return true;
         }
 
         return false;
